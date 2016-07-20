@@ -3,7 +3,7 @@
 *  This code takes a number grade from 0 through 100,
 *  uses several conditions and assign a respective letter grade based on the number range.
 *  and display the proper letter grade in the browser window
-*
+*  This code is for an assigment in my class
 * @author
 *  Muatasim Qazi
 */
