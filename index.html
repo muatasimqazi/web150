@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<title>
+		Assigment 3 – WEB 150
+	</title>
+
+<style>
+	.container { 
+	width: 400px;
+	margin: auto;
+}
+	.main {
+	background: rgb(84, 142, 183);
+	color: rgb(255, 255, 255);
+	padding: 2px 10px 5px 10px;
+	font-family: Arial, sans-serif;
+	}
+	h2 {
+		text-align: center;
+	}
+	span {
+		font-weight: bold;
+	}
+	#heading {
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<h2>Assigment 3 - Muatasim Qazi</h2>
+		<div class="main">
+			<p id="heading">Convert number grades to letter grades</p>
+
+			<form id="gradeform" name="gradeconversion" action="" method="get">
+				<p>Enter number grade: <input name="inputbox" action="" method="get">
+				<input type="button" name="button" value="Convert" onClick="gradeConvert(form)"></p>
+			</form>
+
+			<p>Number grade = <span id="gradeNum"></span></p>
+			<p>Letter grade = <span id="gradeChar"></span></p>
+
+		</div>
+			<p>Here's is the <a href="assignment.js">link</a> to the assigment 3 js file.</p>
+
+	</div>
+
+
+<script type="text/javascript" src="assigment3.js"></script>
+</body>
+</html>
